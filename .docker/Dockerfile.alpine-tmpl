@@ -10,8 +10,8 @@ ARG BUILD_REF
 ARG OS
 ARG ARCH
 ARG QEMU_ARCH
-ARCH OTP_VERSION
-ARCH EMQX_VERSION
+ARG OTP_VERSION
+ARG EMQX_VERSION
 
 # Basic build-time metadata as defined at http://label-schema.org
 LABEL org.label-schema.build-date=${BUILD_DATE} \
